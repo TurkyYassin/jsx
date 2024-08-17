@@ -3,9 +3,22 @@
     "dev": "bun run --hot src/index.tsx"
   },
   "dependencies": {
-    "hono": "^4.4.0"
+    "@tanstack/react-query": "^4.10.1",
+    "hono": "^4.4.0",
+    "react-router-dom": "^6.4.1"
   },
   "devDependencies": {
-    "@types/bun": "latest"
-  }
+    "@types/bun": "latest",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.7.1"
+  },
+  "name": "jsx",
+  "version": "1.0.0",
+  "description": "To install dependencies: ```sh bun install ```",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
